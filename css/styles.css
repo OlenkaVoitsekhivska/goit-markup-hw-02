@@ -1,12 +1,11 @@
 :root {
-  --blue-web: #2196f3;
-  --white-web: #ffffff;
-  --black-web: #000000;
+  --blue: #2196f3;
+  --white: #ffffff;
+  --black: #000000;
   --hero-heading: #ffffff;
-  --crew-bcg: #f5f4fa;
-  --bcg: #ffffff;
-  --hero-footer-bcg: #2f303a;
   --headings: #212121;
+  --crew-bcg: #f5f4fa;
+  --hero-footer-bcg: #2f303a;
   --paragraph-contact: #757575;
   --footer-contacts: #ffffff99;
 }
@@ -18,7 +17,7 @@ body {
 }
 .logo-header {
   text-decoration: none;
-  color: var(--black-web);
+  color: var(--black);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -26,14 +25,14 @@ body {
 }
 .logo-footer {
   text-decoration: none;
-  color: var(--white-web);
+  color: var(--white);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
 }
 .web {
-  color: var(--blue-web);
+  color: var(--blue);
 }
 .nav-list {
   list-style-type: none;
@@ -46,6 +45,13 @@ body {
   color: var(--headings);
   text-decoration: none;
 }
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--blue);
+}
+.current {
+  color: var(--blue);
+}
 .contacts-list {
   list-style-type: none;
 }
@@ -56,6 +62,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--paragraph-contact);
   text-decoration: none;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--blue);
 }
 .hero-box {
   background-color: var(--hero-footer-bcg);
@@ -70,13 +80,13 @@ body {
   color: var(--hero-heading);
 }
 .button {
-  background-color: var(--blue-web);
+  background-color: var(--blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--bcg);
+  color: var(--white);
 }
 .features-list {
   list-style-type: none;
@@ -105,6 +115,9 @@ body {
 .services-list {
   list-style-type: none;
 }
+.crew {
+  background-color: var(--crew-bcg);
+}
 .crew-list {
   list-style-type: none;
 }
@@ -129,7 +142,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
-  color: var(--bcg);
+  color: var(--white);
 }
 .mail,
 .telnumber {
@@ -139,4 +152,42 @@ body {
   font-size: 14px;
   line-height: 1, 71;
   color: var(--footer-contacts);
+}
+
+/* begins the portolio page */
+.btns {
+  list-style-type: none;
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: var(--headings);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.projects-list {
+  list-style-type: none;
+}
+.projects-link {
+  text-decoration: none;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--headings);
+}
+.projects-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 88;
+  color: var(--paragraph-contact);
 }
