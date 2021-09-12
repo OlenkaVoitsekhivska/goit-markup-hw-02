@@ -8,6 +8,7 @@
   --hero-footer-bcg: #2f303a;
   --headings: #212121;
   --paragraph-contact: #757575;
+  --footer-contacts: #ffffff99;
 }
 
 body {
@@ -100,4 +101,42 @@ body {
   line-height: 1, 17;
   text-align: center;
   color: var(--headings);
+}
+.services-list {
+  list-style-type: none;
+}
+.crew-list {
+  list-style-type: none;
+}
+.crew-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  color: var(--headings);
+}
+.crew-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 19;
+  color: var(--paragraph-contact);
+}
+.footer {
+  background-color: var(--hero-footer-bcg);
+}
+
+.physical-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  color: var(--bcg);
+}
+.mail,
+.telnumber {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  color: var(--footer-contacts);
 }
