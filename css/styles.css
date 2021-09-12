@@ -1,0 +1,103 @@
+:root {
+  --blue-web: #2196f3;
+  --white-web: #ffffff;
+  --black-web: #000000;
+  --hero-heading: #ffffff;
+  --crew-bcg: #f5f4fa;
+  --bcg: #ffffff;
+  --hero-footer-bcg: #2f303a;
+  --headings: #212121;
+  --paragraph-contact: #757575;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.logo-header {
+  text-decoration: none;
+  color: var(--black-web);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.logo-footer {
+  text-decoration: none;
+  color: var(--white-web);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.web {
+  color: var(--blue-web);
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--headings);
+  text-decoration: none;
+}
+.contacts-list {
+  list-style-type: none;
+}
+.contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-contact);
+  text-decoration: none;
+}
+.hero-box {
+  background-color: var(--hero-footer-bcg);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-heading);
+}
+.button {
+  background-color: var(--blue-web);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--bcg);
+}
+.features-list {
+  list-style-type: none;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+
+  text-transform: uppercase;
+  color: var(--headings);
+}
+.features-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  color: var(--paragraph-contact);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  color: var(--headings);
+}
