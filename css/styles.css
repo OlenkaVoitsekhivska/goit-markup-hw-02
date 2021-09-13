@@ -21,7 +21,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .logo-footer {
   text-decoration: none;
@@ -29,7 +29,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .web {
   color: var(--blue);
@@ -40,7 +40,7 @@ body {
 .nav-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--headings);
   text-decoration: none;
@@ -58,7 +58,7 @@ body {
 .contacts-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--paragraph-contact);
   text-decoration: none;
@@ -73,7 +73,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ body {
   background-color: var(--blue);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
@@ -94,7 +94,7 @@ body {
 .features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 
   text-transform: uppercase;
   color: var(--headings);
@@ -102,13 +102,13 @@ body {
 .features-description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--paragraph-contact);
 }
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
   color: var(--headings);
 }
@@ -124,13 +124,13 @@ body {
 .crew-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   color: var(--headings);
 }
 .crew-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   color: var(--paragraph-contact);
 }
 .footer {
@@ -141,7 +141,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--white);
 }
 .mail,
@@ -150,7 +150,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: var(--footer-contacts);
 }
 
@@ -159,9 +159,10 @@ body {
   list-style-type: none;
 }
 .btn {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   text-align: center;
   background: #f5f4fa;
   border-radius: 4px;
@@ -188,6 +189,6 @@ body {
 .projects-type {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   color: var(--paragraph-contact);
 }
